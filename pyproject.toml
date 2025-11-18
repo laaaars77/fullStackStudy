@@ -1,0 +1,18 @@
+[project]
+name = "fullstackstudy"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "laaaars77",email = "lars.lu.mail@gmx.de"}
+]
+readme = "README.md"
+requires-python = ">=3.9, <4.0"
+dependencies = [
+    "poetry-core (>=2.0.0)",
+    "aiohttp (>=3.13.2,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
